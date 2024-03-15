@@ -1,6 +1,39 @@
-* {
-    font-family: 'Cousine', monospace;
-}
 body {
-    background-color: #646464;
+	font-family: "EB Garamond", "Arial";
+	margin: 40px;
+	background-color: black;
+	color: white;
+}
+
+a {
+	color: green;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+h1 {
+	margin: 0px;
+	text-align: center;
+}
+
+h2 {
+	margin-top: 0px;
+}
+
+.row {
+	display: flex;
+	flex-direction: row;
+}
+
+.column {
+	display: flex;
+	flex-direction: column;
+}
+
+.tenpercentwidth {
+	width: 10%
+}
+
+.content {
+	width: 90%;
 }
