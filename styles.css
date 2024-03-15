@@ -19,21 +19,3 @@ h1 {
 h2 {
 	margin-top: 0px;
 }
-
-.row {
-	display: flex;
-	flex-direction: row;
-}
-
-.column {
-	display: flex;
-	flex-direction: column;
-}
-
-.tenpercentwidth {
-	width: 10%
-}
-
-.content {
-	width: 90%;
-}
