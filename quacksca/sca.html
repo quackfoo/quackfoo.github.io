@@ -20,11 +20,11 @@
 	</nav>
     <div style="margin: 5px 25px 0px 25px">
         <div class="nav2">
-			<h2>QuackSCA</h2>
+			<h1>QuackSCA</h1>
 			<button><a href="./help">Help</a></button>
 			<button><a href="./changelog">Changelog</a></button>
 		</div>
-		<a href="./help#Sound changes">Sound changes</a>
+		<a href="./help#Sound changes" id="file">Sound changes</a>
 		<input type="file">
 		<a href="./help#Phonemes and phones">Phonemes and phones </a>
 		<input>
@@ -33,7 +33,7 @@
         <div class="input" spellcheck="false">
         	<div class="vertical">
             	<a href="./help#Input">Input</a>
-            	<textarea></textarea>
+            	<textarea id="input"></textarea>
 				<div class="input">
 					<a href="./help#Input format">Format </a>
 					<input type="checkbox">
@@ -83,8 +83,10 @@
 				<a href="./help#All forms">All forms</a>
 			</div>
 			<button style="height: 31px">Copy output</button>
+			<button style="height: 31px" onclick="saveContent()">Save</button>
 		</div>
     </div>
+	<script src="./script.js"></script>
 </body>
 
 </html>
