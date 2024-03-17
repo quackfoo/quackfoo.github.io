@@ -17,7 +17,6 @@ a:hover {
 
 h1 {
 	margin: 0px;
-	text-align: center;
 	font-size: 34px;
 }
 
@@ -31,6 +30,7 @@ button {
 	background-color: rgb(33, 33, 33);
 	border: none;
 	padding: 7.5px;
+  color: white;
 }
 
 textarea {
@@ -50,6 +50,8 @@ input {
 	width: fit-content;
 	margin-bottom: 5px;
 }
+
+
 
 .nav {
 	display: flex;
