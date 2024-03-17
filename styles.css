@@ -36,10 +36,19 @@ button {
 textarea {
 	background-color: rgb(33, 33, 33);
 	color: white;
-	border: 2px solid rgb(19, 19, 19);
+	border: none;
 	resize: none;
 	outline: none;
-	
+	height: 50vh;
+}
+
+input {
+	background-color: rgb(33, 33, 33);
+	border: none;
+	outline: none;
+	color: white;
+	width: fit-content;
+	margin-bottom: 5px;
 }
 
 .nav {
@@ -56,12 +65,13 @@ textarea {
 .nav2 {
 	display: flex;
 	align-items: center;
-	gap: 25px
+	gap: 5px;
 }
 
 .input {
 	display: flex;
-	gap: 3px;
+	gap: 5px;
+	margin-bottom: 5px;
 }
 
 .vertical {
