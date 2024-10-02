@@ -24,7 +24,6 @@ h3 {
 }
 
 a {
-    display: block;
     text-decoration: underline;
 }
 
@@ -44,6 +43,7 @@ nav {
 
 nav a {
     text-decoration: none;
+    display: block;
 }
 
 .title {
