@@ -25,19 +25,20 @@ h3 {
 
 a {
     text-decoration: underline;
+    color: green;
 }
 
 a:visited {
-    color: blue;
+    color: green;
 }
 
 a:hover {
-    color: green;
+    color: blue;
 }
 
 nav {
     overflow-x: scroll;
-    width: 15vw;
+    width: 15em;
     margin-top: 10px;
 }
 
@@ -56,4 +57,8 @@ nav a {
 
 .main {
     width: 85vw;
+}
+
+.current {
+    color: blue !important;
 }
