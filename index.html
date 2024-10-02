@@ -4,7 +4,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <base href="https://quackf00.github.io/">
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var base = document.createElement('base');
+            var hostname = window.location.hostname;
+            
+            if (hostname === "localhost" || hostname === "127.0.0.1") {
+                base.href = "http://localhost:5500/";
+            } else {
+                base.href = "https://quackf00.github.io/";
+            }
+
+            document.head.appendChild(base);
+        });
+    </script>
     <link rel="stylesheet" href="styles.css">
     <title>quackf00.github.io</title>
 </head>
@@ -26,18 +39,14 @@
             <h1>quackf00.github.io</h1>
             <a href="changelog.html">Changelog</a>
         </div>
-        <h2>Description</h2>
-        I am quackfoo, and I am a maker. I make conworlds,
-        conlangs, conlanging tools, I make things and
-        host them on this website. Things I have made that are hosted on this website are: my blog, links to my content,
-        projects, tools, and resources, which are all about conlanging, worldbuilding, and programming.
-
         <h2>Who am I?</h2>
-        I am <a href="aboutme/index.html">quackfoo</a>, and I am a <a href="https://www.youtube.com/watch?v=DUsBoLT1Yv8&pp=ygUPd2hhdCBpcyBhIG1ha2Vy">maker</a>.
+        <p>I am <a href="aboutme/index.html">quackfoo</a>, and I am a maker.</p>
+        <p>What is a <a href="https://www.youtube.com/watch?v=DUsBoLT1Yv8&pp=ygUPd2hhdCBpcyBhIG1ha2Vy">maker</a>?</p>
         <h2>What do I make?</h2>
-        I make <a href="https://en.wikipedia.org/wiki/Constructed_language">conlangs</a>, <a href="https://en.wikipedia.org/wiki/Worldbuilding">conworlds</a>, <a href="https://en.wikipedia.org/wiki/Constructed_writing_system">conscripts</a>, conlanging tools, games, programs, <a href="presence/index.html">content</a> on the Internet, and a <a href="blog/index.html">blog</a>.
+        <p>I make <a href="projects/worldbuilding-and-conlanging/conlanging/index.html">conlangs</a>, <a href="projects/worldbuilding-and-conlanging/index.html">conworlds</a>, <a href="projects/worldbuilding-and-conlanging/conlanging/conscripts/index.html">writing systems</a>, <a href="tools/index.html">conlanging tools</a>, <a href="projects/programming/games/index.html">video games</a>, <a href="projects/programming/index.html">programs</a>, <a href="presence/index.html">content</a> on the Internet, and a <a href="blog/index.html">blog</a>.</p>
+        <p>What is a  <a href="https://en.wikipedia.org/wiki/Constructed_language">conlang</a>? What is a <a href="https://en.wikipedia.org/wiki/Worldbuilding">conworld</a>? What is a <a href="https://en.wikipedia.org/wiki/Constructed_writing_system">writing system (aka a conscript)</a>?</p>
         <h2>What else does this website host?</h2>
-        This website also hosts <a href="aboutme/index.html">information about me</a>, <a href="contact/index.html">contact information</a>, and resources for conlanging, worldbuilding, and programming.
+        <p>This website also hosts resources for <a href="projects/worldbuilding-and-conlanging/conlanging/resources/index.html">conlanging</a>, <a href="projects/worldbuilding-and-conlanging/resources/index.html">worldbuilding</a>, <a href="projects/programming/resources/index.html">programming</a>, and it contains <a href="aboutme/index.html">information about me</a> and <a href="contact/index.html">contact information</a>.</p>
         <h2>Current Projects</h2>
     </div>
 
