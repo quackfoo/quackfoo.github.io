@@ -3,7 +3,7 @@
 body {
     font-family: "EB Garamond", serif;
     background-color: black;
-    color: white;
+    color: whitesmoke;
     margin: 0 2em 2em 2em;
     font-size: 18px;
     display: flex;
@@ -25,15 +25,16 @@ h3 {
 
 a {
     text-decoration: underline;
-    color: green;
+    color: white;
 }
 
 a:visited {
-    color: green;
+    color: white;
 }
 
 a:hover {
     color: blue;
+    text-decoration: underline;
 }
 
 nav {
@@ -43,8 +44,14 @@ nav {
 }
 
 nav a {
-    text-decoration: none;
     display: block;
+    color: green !important;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: blue !important;
+    text-decoration: none;
 }
 
 .title {
@@ -53,6 +60,17 @@ nav a {
     align-items: center;
     height: 50px;
     font-size: 1.5em;
+    padding-bottom: 10px;
+}
+
+.title a {
+    color: green;
+    text-decoration: none;
+}
+
+.title a:hover {
+    color: blue;
+    text-decoration: none;
 }
 
 .main {
@@ -61,4 +79,14 @@ nav a {
 
 .current {
     color: blue !important;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.images img {
+    height: 100px;
 }
