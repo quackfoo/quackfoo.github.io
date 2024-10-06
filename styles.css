@@ -6,21 +6,13 @@ body {
     color: whitesmoke;
     margin: 0 2em 2em 2em;
     font-size: 18px;
-    display: flex;
 }
 
 h1 {
-    font-size: 1.5em;
     width: 100%;
     text-align: center;
-}
-
-h2 {
-    font-size: 1.25em;
-}
-
-h3 {
-    font-size: 1em;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 a {
@@ -39,8 +31,8 @@ a:hover {
 
 nav {
     overflow-x: scroll;
-    width: 15em;
-    margin-top: 10px;
+    width: 15vw;
+    /* margin-top: 10px; */
 }
 
 nav a {
@@ -49,32 +41,24 @@ nav a {
     text-decoration: none;
 }
 
-nav a:hover {
+.nav2 a {
+    color: green !important;
+    text-decoration: none;
+}
+
+nav a:hover, .nav2 a:hover {
     color: blue !important;
     text-decoration: none;
 }
 
-.title {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 50px;
-    font-size: 1.5em;
-    padding-bottom: 10px;
+hr {
+    width: 5em;
+    text-align: left;
+    margin-left: 0;
 }
 
-.title a {
-    color: green;
-    text-decoration: none;
-}
-
-.title a:hover {
-    color: blue;
-    text-decoration: none;
-}
-
-.main {
-    width: 85vw;
+p {
+    margin-top: 0;
 }
 
 .current {
@@ -89,4 +73,20 @@ nav a:hover {
 
 .images img {
     height: 100px;
+}
+
+.nav2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 50px;
+    font-size: 1.5em;
+}
+
+.flex {
+    display: flex;
+}
+
+.main {
+    width: 85vw;
 }
