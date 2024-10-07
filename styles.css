@@ -30,9 +30,8 @@ a:hover {
 }
 
 nav {
-    overflow-x: scroll;
+    overflow-x: visible;
     width: 15vw;
-    /* margin-top: 10px; */
 }
 
 nav a {
@@ -78,6 +77,7 @@ p {
 .nav2 {
     display: flex;
     align-items: center;
+    overflow-x: scroll;
     justify-content: space-around;
     height: 50px;
     font-size: 1.5em;
