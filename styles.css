@@ -75,15 +75,6 @@ ul {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
-}
-
-.images img {
-    height: 75px;
-    display: block;
-    margin: 0 auto;
-    border-radius: 5px;
-    border-bottom: 1px solid rgb(75, 75, 75);
 }
 
 .images p {
@@ -105,10 +96,12 @@ ul {
 
 .flex {
     display: flex;
+    width: 100%;
 }
 
 .main {
     width: 85vw;
+    width: 100%;
 }
 
 .main h2:first-of-type {
